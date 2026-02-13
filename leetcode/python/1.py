@@ -1,9 +1,11 @@
 # To Sum
 
 
-class Solution(object):
+class Solution:
     def twoSum(self, nums, target):
+        dic = {}
         for i, num in enumerate(nums):
-            for j in range(i + 1, len(nums)):
-                if num + nums[j] == target:
-                    return [i, j]
+            complemento = target - num
+            if complemento in dic:
+                return [dic[complemento], i]
+            dic[num] = i
