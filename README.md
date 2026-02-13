@@ -1,4 +1,10 @@
-# Postando minhas resoluções do site beecrowd
+# Postando minhas resoluções do sites de desafios de programação [Beecrowd](https://www.beecrowd.com.br/) e [LeetCode](https://leetcode.com/)
 
-• [C](c99-beecrowd)  
-• [Python](python-beecrowd)
+## Beecrowd
+
+- [C](beecrowd/c99)  
+- [Python](beecrowd/python)
+
+## LeetCode
+
+- [Python](leetcode/python)
