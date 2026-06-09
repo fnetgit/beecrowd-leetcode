@@ -3,7 +3,16 @@
 
 class Solution:
     def majorityElement(self, nums: list[int]) -> int:
-        di = {}
+        count = 0
+        candidate = 0
         for n in nums:
-            di[n] = di.get(n, 0) + 1
-        return max(di, key=di.get)
+            if count == 0:
+                candidate = n
+                count += 1
+            else:
+                if n == candidate:
+                    count += 1
+                else:
+                    count -= 1
+        return candidate
+
