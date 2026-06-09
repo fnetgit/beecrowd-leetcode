@@ -14,8 +14,3 @@ class Solution:
                 total += n
                 max_saw = n
         return total
-
-
-r = Solution()
-print(r.romanToInt("XXIV"))
-# print(r.romanToInt("XXVI"))
