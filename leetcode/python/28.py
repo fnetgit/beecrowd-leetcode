@@ -2,10 +2,9 @@
 
 
 class Solution:
-    def strStr(self, haystack: str, needle: str) -> int | None | str:
-        for i, c in enumerate(haystack):
+    def strStr(self, haystack: str, needle: str) -> int:
+        for i in range(len(haystack)):
             if haystack[i : i + len(needle)] == needle:
                 return i
-            else:
-                continue
+            continue
         return -1
