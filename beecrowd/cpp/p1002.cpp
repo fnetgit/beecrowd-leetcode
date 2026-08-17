@@ -16,3 +16,6 @@ int main()
 
     return 0;
 }
+
+// fixed: exibe o número em formato decimal, sem notação científica.
+// setprecision(4): define 4 casas decimais depois da vírgula.
