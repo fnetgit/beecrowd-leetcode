@@ -1,4 +1,4 @@
-// Extremamente Básico
+// O Maior
 
 #include <bits/stdc++.h>
 
@@ -10,9 +10,10 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    int a, b;
-    cin >> a >> b;
-    cout << "X = " << a + b << '\n';
+    int a, b, c;
+    cin >> a >> b >> c;
+
+    cout << max({a, b, c}) << " eh o maior\n";
 
     return 0;
 }
