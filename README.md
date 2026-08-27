@@ -2,7 +2,8 @@
 
 ## Beecrowd
 
-- [C](beecrowd/c99)  
+- [C](beecrowd/c99)
+- [C++](beecrowd/cpp)
 - [Python](beecrowd/python)
 
 ## LeetCode
