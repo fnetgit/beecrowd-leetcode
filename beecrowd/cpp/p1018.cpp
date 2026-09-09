@@ -11,13 +11,12 @@ int main()
 
     int n;
     cin >> n;
-    int c = n;
     int nts[] = {100, 50, 20, 10, 5, 2, 1};
     cout << n << '\n';
     for (int nt : nts)
     {
-        cout << c / nt << " nota(s) de R$ " << nt << ",00\n";
-        c = c % nt;
+        cout << n / nt << " nota(s) de R$ " << nt << ",00\n";
+        n %= nt;
     }
 
     return 0;
