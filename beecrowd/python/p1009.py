@@ -1,7 +1,6 @@
 # Salário com Bônus
 
-name = (input())
+name = input()
 salary = float(input())
 sales = float(input())
-total = salary + (sales * 0.15)
-print(f'TOTAL = R$ {total:.2f}')
+print(f"TOTAL = R$ {salary + (sales * 0.15):.2f}")
