@@ -1,7 +1,6 @@
 # Diferença
 
-A = int(input())
-B = int(input())
-C = int(input())
-D = int(input())
-print(f'DIFERENCA = {(A*B)-(C*D)}')
+import sys
+
+A, B, C, D = map(int, sys.stdin.read().split())
+sys.stdout.write(f"DIFERENCA = {(A * B) - (C * D)}\n")

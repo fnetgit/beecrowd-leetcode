@@ -1,4 +1,5 @@
 # Área do Círculo
+
 import sys
 
 r = float(sys.stdin.read())

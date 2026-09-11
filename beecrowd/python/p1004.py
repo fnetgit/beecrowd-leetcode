@@ -1,5 +1,6 @@
 # Produto Simples
 
-a = int(input())
-b = int(input())
-print(f"PROD = {a * b}")
+import sys
+
+a, b = map(int, sys.stdin.read().split())
+sys.stdout.write(f"PROD = {a * b}\n")
