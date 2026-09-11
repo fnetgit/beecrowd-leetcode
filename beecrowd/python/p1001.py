@@ -1,5 +1,5 @@
 # Extremamente Básico
+import sys
 
-A = int(input())
-B = int(input())
-print(f"X = {A + B}")
+A, B = map(int, sys.stdin.read().split())
+sys.stdout.write(f"X = {A + B}\n")
