@@ -1,5 +1,6 @@
 # Distância
 
-user_input = int(input())
-minutes = user_input * 2
-print(f'{minutes} minutos')
+import sys
+
+d = int(sys.stdin.readline())
+sys.stdout.write(f"{d * 2} minutos\n")
