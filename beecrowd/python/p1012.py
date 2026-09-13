@@ -1,19 +1,13 @@
 # Área
 
-values = input().split()
-A = float(values[0])
-B = float(values[1])
-C = float(values[2])
+import sys
 
-pi = 3.14159
-triangle_area = (A * C)/2
-circle_area = pi * C**2
-trapezoid_area = (A + B) * C / 2
-square_area = B**2
-rectangle_area = A * B
+A, B, C = map(float, sys.stdin.read().split())
 
-print(f'TRIANGULO: {triangle_area:.3f}')
-print(f'CIRCULO: {circle_area:.3f}')
-print(f'TRAPEZIO: {trapezoid_area:.3f}')
-print(f'QUADRADO: {square_area:.3f}')
-print(f'RETANGULO: {rectangle_area:.3f}')
+sys.stdout.write(
+    f"TRIANGULO: {(A * C) / 2.0:.3f}\n"
+    f"CIRCULO: {3.14159 * C * C:.3f}\n"
+    f"TRAPEZIO: {(A + B) * C / 2.0:.3f}\n"
+    f"QUADRADO: {B * B:.3f}\n"
+    f"RETANGULO: {A * B:.3f}\n"
+)

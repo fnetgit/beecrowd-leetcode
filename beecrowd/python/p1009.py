@@ -1,6 +1,6 @@
 # Salário com Bônus
 
-name = input()
-salary = float(input())
-sales = float(input())
-print(f"TOTAL = R$ {salary + (sales * 0.15):.2f}")
+import sys
+
+d = sys.stdin.read().split()
+sys.stdout.write(f"TOTAL = R$ {float(d[-2]) + (float(d[-1]) * 0.15):.2f}\n")
