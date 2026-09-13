@@ -1,8 +1,7 @@
 # Salário
 
-employee_number = int(input())
-hours_worked = int(input())
-hourly_rate = float(input())
+import sys
 
-print(f'NUMBER = {employee_number}\n'
-      f'SALARY = U$ {hours_worked*hourly_rate:.2f}')
+d = sys.stdin.read().split()
+sys.stdout.write(f'NUMBER = {d[0]}\n'
+      f'SALARY = U$ {int(d[1])*float(d[2]):.2f}\n')
