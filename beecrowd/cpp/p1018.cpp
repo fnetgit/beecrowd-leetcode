@@ -11,7 +11,7 @@ int main()
 
     int n;
     cin >> n;
-    int nts[] = {100, 50, 20, 10, 5, 2, 1};
+    const int nts[] = {100, 50, 20, 10, 5, 2, 1};
     cout << n << '\n';
     for (int nt : nts)
     {
