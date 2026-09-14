@@ -1,7 +1,6 @@
 # Gasto de Combustível
 
-hours = int(input())
-average_speed = int(input())
-distance_traveled = hours * average_speed
-liters_consumed = distance_traveled / 12
-print(f'{liters_consumed:.3f}')
+import sys
+
+h, s = map(int, sys.stdin.read().split())
+sys.stdout.write(f"{h * s / 12.0:.3f}\n")
