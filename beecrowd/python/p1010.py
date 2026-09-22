@@ -1,4 +1,5 @@
 # Cálculo Simples
+
 import sys
 
 t = 0

@@ -1,9 +1,6 @@
 # Conversão de Tempo
 
-n = int(input())
-hours = n // 3600
-rest = n % 3600
-minutes = rest // 60
-seconds = rest % 60
+import sys
 
-print(f'{hours}:{minutes}:{seconds}')
+n = int(sys.stdin.read())
+sys.stdout.write(f"{n // 3600}:{n % 3600 // 60}:{n % 60}\n")
