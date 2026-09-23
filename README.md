@@ -5,6 +5,7 @@
 - [C](beecrowd/c99)
 - [C++](beecrowd/cpp)
 - [Python](beecrowd/python)
+- [SQL](beecrowd/sql)
 
 ## LeetCode
 
